@@ -10,6 +10,10 @@
 		A20B55641C871A2F00B7A312 /* VivaRating.h in Headers */ = {isa = PBXBuildFile; fileRef = A20B55631C871A2F00B7A312 /* VivaRating.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A20B556B1C871A2F00B7A312 /* VivaRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B55601C871A2F00B7A312 /* VivaRating.framework */; };
 		A20B55701C871A2F00B7A312 /* VivaRatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20B556F1C871A2F00B7A312 /* VivaRatingTests.swift */; };
+		A20B557C1C871C9F00B7A312 /* VivaRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B557B1C871C9F00B7A312 /* VivaRatingView.xib */; };
+		A20B557E1C871CB400B7A312 /* VivaRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20B557D1C871CB400B7A312 /* VivaRatingView.swift */; };
+		A20B55801C871CD900B7A312 /* AssetCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20B557F1C871CD900B7A312 /* AssetCatalog.xcassets */; };
+		EC3866DE76A6F150507EA1A1 /* Pods_VivaRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F680A8DDB666F288CB6CE6 /* Pods_VivaRating.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19F680A8DDB666F288CB6CE6 /* Pods_VivaRating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivaRating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4414E06D03B93A9A14D02B79 /* Pods-VivaRating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivaRating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivaRating/Pods-VivaRating.debug.xcconfig"; sourceTree = "<group>"; };
+		815791AD81FED046A3287F01 /* Pods-VivaRating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivaRating.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivaRating/Pods-VivaRating.release.xcconfig"; sourceTree = "<group>"; };
 		A20B55601C871A2F00B7A312 /* VivaRating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VivaRating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20B55631C871A2F00B7A312 /* VivaRating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VivaRating.h; sourceTree = "<group>"; };
 		A20B55651C871A2F00B7A312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20B556A1C871A2F00B7A312 /* VivaRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivaRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20B556F1C871A2F00B7A312 /* VivaRatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivaRatingTests.swift; sourceTree = "<group>"; };
 		A20B55711C871A2F00B7A312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20B557B1C871C9F00B7A312 /* VivaRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VivaRatingView.xib; sourceTree = "<group>"; };
+		A20B557D1C871CB400B7A312 /* VivaRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VivaRatingView.swift; sourceTree = "<group>"; };
+		A20B557F1C871CD900B7A312 /* AssetCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetCatalog.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3866DE76A6F150507EA1A1 /* Pods_VivaRating.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6344511706D061C49B79EFF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19F680A8DDB666F288CB6CE6 /* Pods_VivaRating.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E2BAA9490A980ACE583E85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4414E06D03B93A9A14D02B79 /* Pods-VivaRating.debug.xcconfig */,
+				815791AD81FED046A3287F01 /* Pods-VivaRating.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A20B55561C871A2F00B7A312 = {
 			isa = PBXGroup;
 			children = (
 				A20B55621C871A2F00B7A312 /* VivaRating */,
 				A20B556E1C871A2F00B7A312 /* VivaRatingTests */,
 				A20B55611C871A2F00B7A312 /* Products */,
+				A1E2BAA9490A980ACE583E85 /* Pods */,
+				6344511706D061C49B79EFF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +101,10 @@
 		A20B55621C871A2F00B7A312 /* VivaRating */ = {
 			isa = PBXGroup;
 			children = (
+				A20B557A1C871C7C00B7A312 /* Views */,
 				A20B55631C871A2F00B7A312 /* VivaRating.h */,
 				A20B55651C871A2F00B7A312 /* Info.plist */,
+				A20B557F1C871CD900B7A312 /* AssetCatalog.xcassets */,
 			);
 			path = VivaRating;
 			sourceTree = "<group>";
@@ -84,6 +116,15 @@
 				A20B55711C871A2F00B7A312 /* Info.plist */,
 			);
 			path = VivaRatingTests;
+			sourceTree = "<group>";
+		};
+		A20B557A1C871C7C00B7A312 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20B557B1C871C9F00B7A312 /* VivaRatingView.xib */,
+				A20B557D1C871CB400B7A312 /* VivaRatingView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A20B55741C871A2F00B7A312 /* Build configuration list for PBXNativeTarget "VivaRating" */;
 			buildPhases = (
+				D2CA2E2B655512A9B9610CCE /* Check Pods Manifest.lock */,
 				A20B555B1C871A2F00B7A312 /* Sources */,
 				A20B555C1C871A2F00B7A312 /* Frameworks */,
 				A20B555D1C871A2F00B7A312 /* Headers */,
 				A20B555E1C871A2F00B7A312 /* Resources */,
+				1CC4A4F1A1A631AA9CA56896 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20B55801C871CD900B7A312 /* AssetCatalog.xcassets in Resources */,
+				A20B557C1C871C9F00B7A312 /* VivaRatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +234,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CC4A4F1A1A631AA9CA56896 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivaRating/Pods-VivaRating-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2CA2E2B655512A9B9610CCE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A20B555B1C871A2F00B7A312 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20B557E1C871CB400B7A312 /* VivaRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,29 +386,36 @@
 		};
 		A20B55751C871A2F00B7A312 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4414E06D03B93A9A14D02B79 /* Pods-VivaRating.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = VivaRating/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VivaReal.VivaRating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A20B55761C871A2F00B7A312 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815791AD81FED046A3287F01 /* Pods-VivaRating.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = VivaRating/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VivaReal.VivaRating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +462,7 @@
 				A20B55761C871A2F00B7A312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A20B55771C871A2F00B7A312 /* Build configuration list for PBXNativeTarget "VivaRatingTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +471,7 @@
 				A20B55791C871A2F00B7A312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

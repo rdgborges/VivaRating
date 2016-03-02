@@ -1,0 +1,10 @@
+PODS:
+  - NibDesignable (2.3.0)
+
+DEPENDENCIES:
+  - NibDesignable
+
+SPEC CHECKSUMS:
+  NibDesignable: 10eb4480cab249bb5d5ba273061b026df824087b
+
+COCOAPODS: 0.39.0
